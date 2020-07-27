@@ -18,6 +18,8 @@ namespace Northwind.WebApi.Controllers
         public IActionResult GetById(int id)
         {
             return Ok(_logic.GetById(id));
+            
+
         }
 
         [HttpGet]
